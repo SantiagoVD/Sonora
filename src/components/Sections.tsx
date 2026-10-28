@@ -13,7 +13,7 @@ export function Hero() {
         <div className="eyebrow"><span className="eyebrow-line" /> LIMA, PERÚ <span className="eyebrow-dot">✳</span> ESCENA INDEPENDIENTE</div>
         <h1>Hay algo nuevo<br />sonando <em>por aquí.</em></h1>
         <p className="hero-description">Descubre la nueva escena musical peruana. Vive conciertos inolvidables y conoce a quienes están transformando el sonido independiente.</p>
-        <div className="hero-actions"><a className="button button-primary" href="#conciertos">Explorar conciertos <ArrowUpRight size={17} /></a><a className="button button-glass" href="#artistas"><Music2 size={16} /> Descubrir artistas</a></div>
+        <div className="hero-actions"><a className="button button-primary" href="#conciertos">Explorar conciertos <ArrowUpRight size={17} /></a><a className="button button-glass" href="#artistas"><Music2 size={16} /> Descubrir artistas</a><a className="hero-instagram-link" href="https://www.instagram.com/sonoragod/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram de SONORA, @sonoragod"><Instagram size={16}/> @sonoragod <ArrowUpRight size={13}/></a></div>
         <div className="hero-social-proof"><div className="proof-avatars"><span>L</span><span>A</span><span>+</span></div><div><strong>Una escena por descubrir</strong><small>Creada para sonar más cerca</small></div></div>
       </div>
       <div className="hero-visual" aria-label="Público en una presentación musical">
