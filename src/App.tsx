@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import EventCard from './components/EventCard'
 import ArtistCard from './components/ArtistCard'
 import Modal from './components/Modal'
-import { About, Benefits, FAQ, Footer, Hero } from './components/Sections'
+import { About, Benefits, FAQ, Footer, Hero, ProjectVideo } from './components/Sections'
 import { artists, concerts } from './data/content'
 import { getApplications, getFavorites, getReservations, saveApplications, saveFavorites, saveReservations } from './utils/storage'
 import type { Application, Artist, Concert, Reservation } from './types'
@@ -78,6 +78,7 @@ export default function App() {
     <Navbar onReservations={() => setDialog({ type: 'reservations' })} />
     <main>
       <Hero />
+      <ProjectVideo />
 
       <section className="events-section section-padding" id="conciertos">
         <div className="container">

@@ -29,6 +29,27 @@ export function Hero() {
   </section>
 }
 
+export function ProjectVideo() {
+  return <section className="project-video-section section-padding" id="presentacion">
+    <div className="container project-video-grid">
+      <div className="project-video-copy">
+        <span className="eyebrow"><span className="eyebrow-line" /> LA IDEA DETRÁS DE SONORA</span>
+        <h2>Una escena nueva<br /><em>ya está sonando.</em></h2>
+        <p>Conoce la propuesta y cómo queremos conectar artistas emergentes, conciertos y nuevas audiencias en un mismo espacio.</p>
+        <div className="project-video-meta"><span className="video-duration">01:49</span><span><strong>VIDEO DE PRESENTACIÓN</strong><small>Proyecto académico · Lima, Perú</small></span></div>
+      </div>
+      <div className="project-video-frame">
+        <div className="project-video-toolbar"><span className="video-window-dots"><i /><i /><i /></span><span>SONORA / PRESENTACIÓN</span><span className="video-frame-index">01 — 01</span></div>
+        <video className="project-video-player" controls preload="metadata" playsInline poster="/video/sonora-poster.svg" aria-label="Video de presentación del proyecto SONORA">
+          <source src="/video/sonora-presentacion.mp4" type="video/mp4" />
+          Tu navegador no puede reproducir este video. Prueba con un navegador actualizado.
+        </video>
+        <div className="project-video-caption"><span>UNA PROPUESTA PARA IMPULSAR LA ESCENA</span><span>SONORA ✳ LIMA</span></div>
+      </div>
+    </div>
+  </section>
+}
+
 export function Benefits() {
   return <section className="benefits-section section-padding">
     <div className="container"><div className="benefits-heading"><span className="eyebrow"><span className="eyebrow-line" /> EL UNIVERSO SONORA</span><p>Más que encontrar un concierto.<br /><strong>Encontrar tu próximo sonido.</strong></p></div>

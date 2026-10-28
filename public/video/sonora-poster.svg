@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="56" y1="40" x2="1220" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21131A"/>
+      <stop offset=".55" stop-color="#131218"/>
+      <stop offset="1" stop-color="#0B0B10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(530 254 -272 566 889 284)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F26B4B" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#F26B4B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bottom" x1="640" y1="450" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0B10" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0B0B10" stop-opacity=".74"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1280v720H0z"/>
+  <path fill="url(#glow)" d="M0 0h1280v720H0z"/>
+  <g stroke="#F26B4B" stroke-opacity=".26" stroke-width="2">
+    <path d="M80 370h84l20-42 25 86 29-126 25 164 28-104 21 22h72"/>
+    <path d="M904 370h52l21-34 24 66 24-112 27 135 24-72 20 17h125"/>
+    <circle cx="640" cy="364" r="185" stroke-opacity=".12"/>
+    <circle cx="640" cy="364" r="230" stroke-opacity=".08"/>
+  </g>
+  <path fill="url(#bottom)" d="M0 410h1280v310H0z"/>
+  <g fill="#F4F1EB" font-family="Arial,sans-serif">
+    <text x="78" y="88" font-size="20" font-weight="700" letter-spacing="5">SONORA <tspan fill="#F26B4B">✳</tspan></text>
+    <text x="80" y="579" font-size="16" font-weight="700" letter-spacing="4" fill="#E9B36A">EL PROYECTO EN MOVIMIENTO</text>
+    <text x="76" y="646" font-size="44" font-weight="700" letter-spacing="-1">Descubre. Vive. Impulsa la escena.</text>
+  </g>
+  <circle cx="640" cy="364" r="54" fill="#F26B4B"/>
+  <path d="M629 337v54l43-27-43-27Z" fill="#161115"/>
+</svg>

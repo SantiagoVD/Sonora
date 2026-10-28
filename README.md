@@ -20,6 +20,7 @@ npm run preview
 
 - Conciertos y artistas de referencia: `src/data/content.ts`.
 - Fotografías: URLs de imágenes de Unsplash definidas en el mismo archivo y en `src/index.css`.
+- Video de presentación: `public/video/sonora-presentacion.mp4` (copia web H.264 de 720p). El archivo fuente original se conserva localmente en `video/` y se excluye de Git.
 - Colores, tipografías, responsive y animaciones: variables y estilos de `src/index.css`.
 - Reservas, favoritos y postulaciones de muestra: se guardan en `localStorage` bajo claves `sonora:*`.
 
