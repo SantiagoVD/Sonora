@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowDown, ArrowUpRight, CalendarDays, ChevronDown, Heart, Mic2, Music2, Sparkles } from 'lucide-react'
+import { ArrowDown, ArrowUpRight, CalendarDays, ChevronDown, Heart, Instagram, Mic2, Music2, Sparkles } from 'lucide-react'
 import { benefits, faqs } from '../data/content'
 
 const icons = [Sparkles, CalendarDays, Heart, Mic2]
@@ -51,5 +51,5 @@ export function FAQ() {
 }
 
 export function Footer() {
-  return <footer className="site-footer"><div className="container"><div className="footer-main"><a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Music2 size={20}/></span><span>SONORA<span className="brand-period">.</span></span></a><p>Descubre. Vive.<br /><em>Impulsa la escena.</em></p><div className="footer-links"><div><small>EXPLORA</small><a href="#conciertos">Conciertos</a><a href="#artistas">Artistas</a><a href="#convocatoria">Convocatorias</a></div><div><small>SONORA</small><a href="#nosotros">Nosotros</a><a href="#faq">Preguntas frecuentes</a><a href="#inicio">Volver arriba ↑</a></div></div><div className="footer-stamp">LIMA<br/><span>✳</span><br/>PERÚ</div></div><div className="footer-bottom"><span>SONORA — Productora de Conciertos & Hub de Talento Emergente.</span><span>Proyecto académico · Lima, Perú · 2026</span></div></div></footer>
+  return <footer className="site-footer"><div className="container"><div className="footer-main"><a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Music2 size={20}/></span><span>SONORA<span className="brand-period">.</span></span></a><p>Descubre. Vive.<br /><em>Impulsa la escena.</em></p><div className="footer-links"><div><small>EXPLORA</small><a href="#conciertos">Conciertos</a><a href="#artistas">Artistas</a><a href="#convocatoria">Convocatorias</a></div><div><small>SONORA</small><a href="#nosotros">Nosotros</a><a href="#faq">Preguntas frecuentes</a><a className="footer-instagram" href="https://www.instagram.com/sonoragod/" target="_blank" rel="noopener noreferrer"><Instagram size={14}/> Instagram <ArrowUpRight size={12}/></a><a href="#inicio">Volver arriba ↑</a></div></div><div className="footer-stamp">LIMA<br/><span>✳</span><br/>PERÚ</div></div><div className="footer-bottom"><span>SONORA — Productora de Conciertos & Hub de Talento Emergente.</span><span>Proyecto académico · Lima, Perú · 2026</span></div></div></footer>
 }
